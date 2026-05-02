@@ -6,11 +6,11 @@ title: Terminology Module Incubator
 status: active
 publisher:
   name: HL7 International / Terminology Infrastructure
-  url: http://www.hl7.org/Special/committees/vocab
+  url: http://www.hl7.org/Special/committees/Vocab
 contact:
     telecom:
       - system: url
-        value: http://www.hl7.org/Special/committees/vocab
+        value: http://www.hl7.org/Special/committees/Vocab
 description: The Terminology Module Incubator specification is a workspace for developing and testing terminology module resources that are planned to be implemented in FHIR, but can iterate their definition faster than the core R6 specification.
 license: CC0-1.0
 fhirVersion: 5.0.0
@@ -42,11 +42,14 @@ extension:
 pages:
   index.md:
     title: Terminology Module Incubator
+  terminology-service.md:
+    title: Terminology Service Module
   changes.md:
     title: Change Log
 
 menu:
   Home: index.html
+  Terminology Service Module: terminology-service.html
   FHIR Artifacts:
       Artifacts: artifacts.html
       Change Log: changes.html
