@@ -33,11 +33,11 @@
       <valueString value="$closure-response.txt"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/build/OperationDefinition/ConceptMap-closure"/>
+  <url value="http://hl7.org/fhir/uv/tm-incubator/OperationDefinition/ConceptMap-closure"/>
   <version value="6.0.0"/>
   <name value="Closure"/>
   <title value="Closure Table Maintenance"/>
-  <status value="draft"/>
+  <status value="active"/>
   <kind value="operation"/>
   <date value="2021-01-05T10:01:24+11:00"/>
   <publisher value="HL7 (FHIR Project)"/>
