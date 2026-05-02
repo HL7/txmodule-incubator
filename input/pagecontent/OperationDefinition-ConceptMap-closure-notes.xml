@@ -1,0 +1,17 @@
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
+	<a name="examples"></a>
+	<h3>Examples</h3>
+
+	<p>Evaluate a closure named <code>patient-problems</code> for a subset of SNOMED CT.</p>
+
+	<a name="req"> </a>
+	<h4>Request:</h4>
+	<pre class="http"><code>POST [base]/$closure</code></pre>
+	<pre class="json"><code>{% include closure-request.json %}</code></pre>
+
+	<a name="resp"> </a>
+	<h4>Response:</h4>
+	<pre class="http"><code>HTTP/1.1 200 OK
+[other headers]</code></pre>
+	<pre class="json"><code>{% include closure-response.json %}</code></pre>
+</div>

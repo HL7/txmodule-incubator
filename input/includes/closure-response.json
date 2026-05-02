@@ -1,8 +1,3 @@
-// TODO: Comment describing this closure processing results
-
-HTTP/1.1 200 OK
-[other headers]
-
 {
   "resourceType": "ConceptMap",
   "identifier": "49088976-d54d-4d19-b868-3d4c18cebabb",
@@ -14,15 +9,15 @@ HTTP/1.1 200 OK
     {
       "source": "http://snomed.info/sct",
       "target": "http://snomed.info/sct",
-			"element" : {
-				"code": "22298006",
-				"target": [
-					{
-						"code": "128599005",
-						"relationship": "source-is-narrower-than-target"
-					}
-				]
-			}
-    },
+      "element": {
+        "code": "22298006",
+        "target": [
+          {
+            "code": "128599005",
+            "relationship": "source-is-narrower-than-target"
+          }
+        ]
+      }
+    }
   ]
 }

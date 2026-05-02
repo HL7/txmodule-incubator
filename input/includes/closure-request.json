@@ -1,7 +1,3 @@
-// evaluate a closure named "patient-problems" for a subset of snomed
-
-POST [base]/$closure
-
 {
   "resourceType" : "Parameters",
   "parameter" : [
@@ -13,7 +9,7 @@ POST [base]/$closure
       "name" : "concept",
       "valueCoding" : {
         "system" : "http://snomed.info/sct",
-        "code" : "22298006",
+        "code" : "22298006"
       }
     }
   ]
