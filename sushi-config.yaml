@@ -1,0 +1,52 @@
+id: hl7.fhir.uv.tm-incubator
+canonical: http://hl7.org/fhir/uv/tm-incubator
+version: 0.1.0
+name: TMIncubator
+title: Terminology Module Incubator
+status: active
+publisher:
+  name: HL7 International / Terminology Infrastructure
+  url: http://www.hl7.org/Special/committees/vocab
+contact:
+    telecom:
+      - system: url
+        value: http://www.hl7.org/Special/committees/vocab
+description: The Terminology Module Incubator specification is a workspace for developing and testing terminology module resources that are planned to be implemented in FHIR, but can iterate their definition faster than the core R6 specification.
+license: CC0-1.0
+fhirVersion: 5.0.0
+instanceOptions:
+  manualSliceOrdering: true
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  globals-in-artifacts: true
+  show-inherited-invariants: false
+  shownav: false
+  path-pages:
+    - input/pagecontent
+  path-resource:
+    - input/resources/codesystem
+    - input/resources/conceptmap
+
+copyrightYear: 2026+
+releaseLabel: STU 1
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: "trial-use"
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: "3"
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: "vocab"
+
+pages:
+  index.md:
+    title: Terminology Module Incubator
+  changes.md:
+    title: Change Log
+
+menu:
+  Home: index.html
+  FHIR Artifacts:
+      Artifacts: artifacts.html
+      Change Log: changes.html
