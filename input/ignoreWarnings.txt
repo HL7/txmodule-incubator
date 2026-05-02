@@ -1,0 +1,8 @@
+== Suppressed Messages ==
+
+# jurisdiction valueset not really deprecated
+INFORMATION: OperationDefinition/CodeSystem-find-matches: OperationDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: OperationDefinition/ConceptMap-closure: OperationDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# Other warning/info messages
+
