@@ -7,7 +7,7 @@ fsh-generated/
 
 # Intentionally don't track the jira artifact references (as these resources should be in the core spec and don't want to duplicate in jira)
 # (different for each incubator IG too)
-FHIR-tm-incubator.xml
+FHIR-txmodule-incubator.xml
 
 # OS files
 .DS_Store

@@ -2,8 +2,8 @@
 
 This repository contains the source for the **Terminology Module Incubator** HL7 FHIR Implementation Guide (IG).
 
-- **Canonical URL:** http://hl7.org/fhir/uv/tm-incubator
-- **Package ID:** `hl7.fhir.uv.tm-incubator`
+- **Canonical URL:** http://hl7.org/fhir/uv/txmodule-incubator
+- **Package ID:** `hl7.fhir.uv.txmodule-incubator`
 - **FHIR Version:** R5 (5.0.0)
 - **Sponsoring Work Group:** [HL7 Terminology Infrastructure (Vocab)](http://www.hl7.org/Special/committees/Vocab)
 - **License:** [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -20,16 +20,16 @@ The current scope includes:
 - `OperationDefinition` resources for terminology operations such as `$closure` (ConceptMap) and
   `$find-matches` (CodeSystem).
 
-Published content is available at: <http://hl7.org/fhir/uv/tm-incubator> (once published).
+Published content is available at: <http://hl7.org/fhir/uv/txmodule-incubator> (once published).
 
 ## Builds
 
 | Build | Location |
 | --- | --- |
-| **Continuous integration (CI) build** — latest commit on the default branch | <https://build.fhir.org/ig/HL7/tm-incubator/> |
-| **CI build QA report** | <https://build.fhir.org/ig/HL7/tm-incubator/qa.html> |
-| **CI build history / branches** | <https://build.fhir.org/ig/HL7/tm-incubator/branches/> |
-| **Published versions (once released)** | <http://hl7.org/fhir/uv/tm-incubator/history.html> |
+| **Continuous integration (CI) build** — latest commit on the default branch | <https://build.fhir.org/ig/HL7/txmodule-incubator/> |
+| **CI build QA report** | <https://build.fhir.org/ig/HL7/txmodule-incubator/qa.html> |
+| **CI build history / branches** | <https://build.fhir.org/ig/HL7/txmodule-incubator/branches/> |
+| **Published versions (once released)** | <http://hl7.org/fhir/uv/txmodule-incubator/history.html> |
 
 The CI build is produced automatically by the HL7 [auto-builder](https://github.com/FHIR/auto-ig-builder)
 whenever a commit is pushed to this repository. Allow a few minutes after pushing for the build to
@@ -112,7 +112,7 @@ Issues and pull requests are welcome. For substantive changes to terminology ope
 behavior, please raise the topic with the
 [HL7 Terminology Infrastructure (Vocab) Work Group](http://www.hl7.org/Special/committees/Vocab)
 or open an issue on the [HL7 FHIR JIRA](https://jira.hl7.org/projects/FHIR) against the
-*FHIR Specification Feedback* project, component *tm-incubator*.
+*FHIR Specification Feedback* project, component *txmodule-incubator*.
 
 ## License
 

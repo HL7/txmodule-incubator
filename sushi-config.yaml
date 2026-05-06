@@ -1,5 +1,5 @@
-id: hl7.fhir.uv.tm-incubator
-canonical: http://hl7.org/fhir/uv/tm-incubator
+id: hl7.fhir.uv.txmodule-incubator
+canonical: http://hl7.org/fhir/uv/txmodule-incubator
 version: 0.1.0
 name: TMIncubator
 title: Terminology Module Incubator

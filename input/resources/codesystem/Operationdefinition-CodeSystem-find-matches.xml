@@ -33,7 +33,7 @@
       <valueString value="$find-matches-response.txt"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/uv/tm-incubator/OperationDefinition/CodeSystem-find-matches"/>
+  <url value="http://hl7.org/fhir/uv/txmodule-incubator/OperationDefinition/CodeSystem-find-matches"/>
   <version value="6.0.0"/>
   <name value="Findmatches"/>
   <title value="Finding codes based on supplied properties"/>
