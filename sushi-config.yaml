@@ -27,7 +27,8 @@ parameters:
   path-resource:
     - input/resources/codesystem
     - input/resources/conceptmap
-
+  auto-oid-root: 2.16.840.1.113883.4.642.40.95
+  
 copyrightYear: 2026+
 releaseLabel: STU 1
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
